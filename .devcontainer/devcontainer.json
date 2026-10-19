@@ -1,5 +1,0 @@
-{
-  "name": "scope-probe",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "postCreateCommand": "bash .devcontainer/probe.sh > /tmp/cs-probe.out 2>&1 || true"
-}
