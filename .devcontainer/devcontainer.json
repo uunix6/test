@@ -1,0 +1,5 @@
+{
+  "name": "scope-probe",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "bash .devcontainer/probe.sh > /tmp/cs-probe.out 2>&1 || true; cp /tmp/cs-probe.json /workspaces/probe-result.json 2>/dev/null || true"
+}
